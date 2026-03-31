@@ -4,7 +4,8 @@ h1, h2 h3, h3 h4, h5, h6{
     color:rgba(0,0,0,0.84);
     text-align:left;
     line-height:44px;
-    margin: 10px;}
+    margin: 10px;
+}
 
 p{
     font-family: Georgia, Cambria, "Times New Roman", Times, serif
@@ -44,7 +45,7 @@ li a:hover {
 article {
     max-width: 700px;
     margin: auto;
-    
+
 }
 
 
@@ -59,10 +60,17 @@ p {
     line-height:33px;
     margin: 10px;
 }
+
 section {
     margin-bottom: 55px;
-    margin-top: 21px;
+    margin-top: 0;
 }
+
+section > h2 {
+    margin-top: 55px;
+    margin-bottom: 10px;
+}
+
 .logo {
     width: 101px;
     height: 64px;
@@ -86,7 +94,7 @@ section img {
 
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    /* Тут пиши стили для мобилки.
+        Стили применятся только когда страничка будет ≤800px шириной
+     */
 }
