@@ -1,21 +1,21 @@
-h1, h2 h3, h3 h4, h5, h6{
+h1, h2 h3, h3 h4, h5, h6 {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-    font-size:42px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:44px;
+    font-size: 42px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 44px;
     margin: 10px;
 }
 
-p{
+p {
     font-family: Georgia, Cambria, "Times New Roman", Times, serif
 }
 
-code{
+code {
     font-family: "Courier New", monospace;
 }
 
-.head{
+.head {
     ul {
         display: flex;
         flex-direction: row;
@@ -27,14 +27,16 @@ code{
         border-left-width: 0px;
         gap: 30px;
     }
+
     li a {
         color: #333333;
         font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-        line-height:36px;
-        font-size:24px;
+        line-height: 36px;
+        font-size: 24px;
     }
+
     li .red_text {
-        color:#d0021b;
+        color: #d0021b;
     }
 }
 
@@ -52,12 +54,13 @@ article {
 code {
     font-family: "Courier New", monospace;
 }
+
 p {
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-    font-size:21px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:33px;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.84);
+    text-align: left;
+    line-height: 33px;
     margin: 10px;
 }
 
@@ -75,17 +78,19 @@ section > h2 {
     width: 101px;
     height: 64px;
 }
+
 img {
     max-width: 700px;
     width: 100%;
     height: auto;
 }
+
 section img {
     margin-top: 43px;
     margin-bottom: 37px;
 }
 
-.hand{
+.hand {
     width: 23px;
     height: auto;
     margin-left: -30px;
@@ -94,7 +99,36 @@ section img {
 
 
 @media (max-width: 800px) {
-    /* Тут пиши стили для мобилки.
-        Стили применятся только когда страничка будет ≤800px шириной
-     */
+    .logo {
+        margin-left: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    nav ul li {
+        padding: 0px;
+        margin: 5px 0px 5px 0px;
+        font-size: 20px;
+    }
+
+    .content {
+        width: 90%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    h1 {
+        font-size: 26px;
+        line-height: 28px;
+    }
 }
