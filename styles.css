@@ -1,7 +1,10 @@
-/* Тут пиши основные стили */
 h1, h2 h3, h3 h4, h5, h6{
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-}
+    font-size:42px;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+    line-height:44px;
+    margin: 10px;}
 
 p{
     font-family: Georgia, Cambria, "Times New Roman", Times, serif
@@ -11,32 +14,29 @@ code{
     font-family: "Courier New", monospace;
 }
 
-
-
-
-.head ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 20px 38px;
-    background-color: whitesmoke;
-    border: #333333;
-    border-top: #333333;
-    border-bottom: #333333;
-    border-left: 0px;
-    border-right: 0px;
-    border-style: solid;
+.head{
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        padding: 20px 38px;
+        background-color: whitesmoke;
+        border: solid #333333;
+        border-right-width: 0px;
+        border-left-width: 0px;
+        gap: 30px;
+    }
+    li a {
+        color: #333333;
+        font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+        line-height:36px;
+        font-size:24px;
+    }
+    li .red_text {
+        color:#d0021b;
+    }
 }
-.head li a {
-    color: #333333;
-    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-    margin: 15px;
-    line-height:36px;
-    font-size:24px;
-}
-.head li .red_text {
-    color:#d0021b;
-}
+
 li a:hover {
     text-decoration: underline;
 }
@@ -46,22 +46,8 @@ article {
     margin: auto;
     
 }
-h1  {
-    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-    font-size:42px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:44px;
-    margin: 10px;
-}
-h2 {
-    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-    font-size:34px;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
-    line-height:39px;
-    margin: 10px;
-}
+
+
 code {
     font-family: "Courier New", monospace;
 }
